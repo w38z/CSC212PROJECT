@@ -1,0 +1,19 @@
+public class PhotoManager {
+
+public PhotoManager() {
+// Constructor
+}
+
+public LinkedList<Photo> getPhotos(){
+// Return all managed photos
+}
+
+public void addPhoto(Photo p){
+// Add a photo
+}
+
+public void deletePhoto(String path) {
+// Delete a photo
+}
+
+}

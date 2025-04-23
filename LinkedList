@@ -53,4 +53,15 @@ return current.next == null;
             current = current.next;
         }
     }
+    public void display() {
+        if (head == null) {
+            System.out.println("empty list");
+        } else {
+            Node<T> p = head;
+            while (p != null) {
+                System.out.print(p.data + " ");
+                p = p.next;
+            }
+        }
+    }
 }

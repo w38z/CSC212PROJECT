@@ -1,0 +1,18 @@
+
+public class Photo {
+
+
+public Photo(String path, LinkedList<String> tags) {
+// Constructor
+}
+
+public String getPath() {
+// Return the full file name (the path) of the photo. A photo is uniquely identified by
+//its path.
+return "temp";
+}
+
+public LinkedList<String> getTags(){
+// Return all tags associated with the photo
+}
+}
